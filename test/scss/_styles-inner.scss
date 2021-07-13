@@ -918,6 +918,13 @@ label.error {
     margin: 0 0 -4px 5px;
     background-size: 100% 100%;
   }
+  .header-line img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .step-slide__grid input.pick-item__digit {
+    margin-left: 0;
+  }
 }
 @-webkit-keyframes smartlidPreloader {
   0% {

@@ -155,6 +155,11 @@ header {
 .why-us .col-50 {
   width: 50%;
   text-align: center;
+  padding: 0 1px;
+}
+.why-us .col-50 img {
+  width: 130px;
+  margin-bottom: 5px;
 }
 .why-us .col-50 .title {
   display: inline-block;
@@ -453,5 +458,13 @@ body.fixed {
 
   .our-works .slick-next {
     right: -45px;
+  }
+}
+@media screen and (max-width : 480px) {
+  .why-us .col-50 .title {
+    font-size: 21px;
+  }
+  .header-logo-title img {
+    margin-bottom: 10px;
   }
 }

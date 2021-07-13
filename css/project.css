@@ -125,7 +125,7 @@ h1 {
 }
 
 h1 span {
-  color: #2a9de5;
+  color: #bb9600;
   font-weight: 900;
 }
 
@@ -142,7 +142,7 @@ header {
   display: block;
   font-size: 35px;
   font-weight: 600;
-  color: #2a9de5;
+  color: #bb9600;
 }
 
 .header-logo-title p {
@@ -184,6 +184,12 @@ header {
 .why-us .col-50 {
   width: 50%;
   text-align: center;
+  padding: 0 1px;
+}
+
+.why-us .col-50 img {
+  width: 130px;
+  margin-bottom: 5px;
 }
 
 .why-us .col-50 .title {
@@ -208,15 +214,15 @@ header {
   display: block;
   text-align: center;
   padding: 20px 15px;
-  background: #2a9de5;
+  background: #bb9600;
   border-radius: 4px;
-  border-bottom: 3px solid #2a9de5;
+  border-bottom: 3px solid #bb9600;
   position: relative;
   font-family: 'Oswald', sans-serif;
 }
 
 .main-btn:hover {
-  background: #57b2eb;
+  background: #eebf00;
 }
 
 .main-btn span {
@@ -491,5 +497,14 @@ body.fixed {
   }
   .our-works .slick-next {
     right: -45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .why-us .col-50 .title {
+    font-size: 21px;
+  }
+  .header-logo-title img {
+    margin-bottom: 10px;
   }
 }

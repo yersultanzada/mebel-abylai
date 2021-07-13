@@ -316,7 +316,7 @@ label.error {
 }
 
 .btn-next:hover {
-  background: #57b2eb;
+  background: #eebf00;
 }
 
 .btn-next span {
@@ -335,8 +335,8 @@ label.error {
 }
 
 .btn-next_active {
-  border-bottom: 3px solid #2a9de5;
-  background: #2a9de5;
+  border-bottom: 3px solid #bb9600;
+  background: #bb9600;
   color: #000;
 }
 
@@ -484,7 +484,7 @@ label.error {
   bottom: 0;
   max-width: 100%;
   height: 100%;
-  background: #2a9de5;
+  background: #bb9600;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -550,7 +550,7 @@ label.error {
   display: block;
   width: 100%;
   height: 1px;
-  background: #2a9de5;
+  background: #bb9600;
   position: absolute;
   top: 50%;
   left: 0;
@@ -560,7 +560,7 @@ label.error {
 .step__extender-item {
   width: 9px;
   height: 9px;
-  border: 1px solid #2a9de5;
+  border: 1px solid #bb9600;
   border-radius: 50%;
   background: #FFF;
   margin-right: 15px;
@@ -573,7 +573,7 @@ label.error {
 }
 
 .step__extender-item_active {
-  background: #2a9de5;
+  background: #bb9600;
 }
 
 .step-slide {
@@ -630,7 +630,7 @@ label.error {
   width: 35px;
   min-width: 35px;
   height: 35px;
-  border: 3px solid #2a9de5;
+  border: 3px solid #bb9600;
   border-radius: 50%;
   font-size: 17px;
   font-weight: bold;
@@ -696,7 +696,7 @@ label.error {
   display: block;
   width: 10px;
   height: 10px;
-  background: #2a9de5;
+  background: #bb9600;
   border-radius: 50%;
   position: absolute;
   top: 5px;
@@ -715,7 +715,7 @@ label.error {
   display: block;
   width: 20px;
   height: 20px;
-  border: 1px solid #2a9de5;
+  border: 1px solid #bb9600;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -757,8 +757,8 @@ label.error {
   padding: 25px 0;
   border-radius: 4px;
   border: 0;
-  border-bottom: 3px solid #2a9de5;
-  background: #2a9de5;
+  border-bottom: 3px solid #bb9600;
+  background: #bb9600;
   font-size: 18px;
   font-weight: bold;
   color: #000;
@@ -788,7 +788,7 @@ label.error {
 }
 
 .last-step-form__button:hover {
-  background: #57b2eb;
+  background: #eebf00;
 }
 
 .last-step-form__accept {
@@ -849,7 +849,7 @@ label.error {
 }
 
 .after-submit__descr a {
-  color: #2a9de5;
+  color: #bb9600;
   text-decoration: underline;
 }
 
@@ -1015,6 +1015,13 @@ label.error {
     height: 18px;
     margin: 0 0 -4px 5px;
     background-size: 100% 100%;
+  }
+  .header-line img {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .step-slide__grid input.pick-item__digit {
+    margin-left: 0;
   }
 }
 
